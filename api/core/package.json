@@ -1,0 +1,19 @@
+{
+  "name": "fastify-template-bohr",
+  "version": "1.0.0",
+  "description": "Template do Fastify para o Bohr.io",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc -p tsconfig.json",
+    "start": "npx tsc -p tsconfig.json && node dist/server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@h4ad/serverless-adapter": "^2.16.0",
+    "fastify": "^4.15.0"
+  }
+}
