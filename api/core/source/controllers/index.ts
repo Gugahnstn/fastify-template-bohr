@@ -1,4 +1,7 @@
-export const requestIp = async (request: any, reply: any) => {
-  const ip = request.headers['x-forwarded-for'];
-  reply.send({query: ip});
-} 
+export const queryIp = async (request: any, reply: any) => {
+  const ip = request.ip;
+  return {
+    message: 'Fastify-Template-Bohr-io', 
+    query: ip
+  }
+};
