@@ -1,4 +1,4 @@
-import { Fastify } from "./app";
+import Fastify  from "./app";
 
 class DefaultPort {
   value: string;
