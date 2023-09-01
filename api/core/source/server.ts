@@ -1,4 +1,4 @@
-import Fastify  from "./app";
+import app from "./app";
 
 class DefaultPort {
   value: string;
@@ -22,9 +22,10 @@ class DefaultPort {
 
 const PORT = new DefaultPort(process.env.PORT || "3000");
 
-Fastify.listen({port: PORT.verifyPort() as number}, (err, address) => {
+app.listen({port: PORT.verifyPort() as number}, (err, address) => {
   if (err) {
     console.error(err);
+    process.exit(1);
   }
   console.log(`Server listening at ${address}`);
 })
