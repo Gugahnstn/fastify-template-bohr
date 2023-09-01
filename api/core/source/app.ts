@@ -3,6 +3,6 @@ import fastify from "fastify";
 
 const app = fastify({ logger: true });
 
-apiRoutes(app);
+app.register(apiRoutes);
 
 export default app;
