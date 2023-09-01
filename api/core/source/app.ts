@@ -1,10 +1,8 @@
-import fastify from "fastify";
 import apiRoutes from "./routes";
+import fastify from "fastify";
 
-const Fastify = fastify({
-  logger: true
-});
+const app = fastify({ logger: true });
 
-Fastify.register(apiRoutes);
+apiRoutes(app);
 
-export default Fastify;
+export default app;
