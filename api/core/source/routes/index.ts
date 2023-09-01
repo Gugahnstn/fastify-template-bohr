@@ -1,7 +1,8 @@
+import { FastifyInstance } from "fastify";
 import { queryIp } from "../controllers";
 
-const apiRoutes = async (fastify: any) => {
-  fastify.get('/api', queryIp);
-}
+const apiRoutes = (app: FastifyInstance) => {
+  app.get('/', queryIp);
+};
 
 export default apiRoutes;
