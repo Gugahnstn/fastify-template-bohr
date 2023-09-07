@@ -1,6 +1,6 @@
 # Fastify Template For Bohr.io
 
-This is a README translated into Portuguese, English, and Spanish, where we will talk about the Fastify template made for Bohr.io. For any questions, please access [discord]() for more information. If you find any translation errors, please notify us on [discord](). The translations are just below...
+This is a README translated into Portuguese, English, and Spanish, where we will talk about the Fastify template made for Bohr.io. For any questions, please access [discord](https://discord.com/invite/p3hhfGg2Uy) for more information. If you find any translation errors, please notify us on [discord](https://discord.com/invite/p3hhfGg2Uy). The translations are just below...
 
 # Translations
 
