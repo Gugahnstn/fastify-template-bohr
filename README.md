@@ -118,8 +118,6 @@ Made for [Bohr.io](https://bohr.io)
   <code> Spanish </code>
 </summary>
 
-Aquí tienes la traducción del texto proporcionado al español:
-
 # ¿Qué es Fastify?
 
 Fastify es un marco web enfocado en proporcionar una mejor calidad y experiencia para los desarrolladores con una sobrecarga mínima. Fastify se inspiró en Hapi, Express y otros. Si deseas obtener más información sobre Fastify, te recomiendo consultar la [documentación](https://fastify.dev/docs/latest/) para obtener más detalles sobre este marco.
