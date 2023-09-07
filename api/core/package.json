@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "npx tsc -p tsconfig.json",
-    "start": "npx tsc -p tsconfig.json && node dist/server.js"
+    "start": "npx tsc -p tsconfig.json && node dist/server.js",
+    "dev": "npx tsc -p tsconfig.json && nodemon --watch 'src/**/*.ts' --exec 'node dist/server.js'"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
@@ -14,6 +15,7 @@
   },
   "dependencies": {
     "@h4ad/serverless-adapter": "^2.16.0",
-    "fastify": "^4.15.0"
+    "fastify": "^4.15.0",
+    "nodemon": "^3.0.1"
   }
 }
