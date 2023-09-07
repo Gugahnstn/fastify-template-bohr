@@ -83,4 +83,5 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-weight: 800;
+  text-decoration: none;
 }
